@@ -26,6 +26,7 @@ J'ai participé, avec 3 camarades de promotion, au concours de la Nuit de l'Info
 Notre équipe a fini troisième au défi "Thomas Pequet", mais aussi et surtout __troisième au concours général__ !
 
 ## Projets académiques d'algorithmique et de programmation 
+Différents projets réalisés le long de mon cursus, il s'agit essentiellement de projets de programmation :
 - Projet PacMan Ascension : projet d'implémentation d'une version simplifiée de PacMan en C.
 - Projet Rummikub : projet d'implémentation d'une version du Rummikub en C.
 - Projet WarGame : projet de développement d'un WarGame en Java.

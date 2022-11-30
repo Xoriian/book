@@ -21,6 +21,10 @@ Une liste (non-exhaustive) des modèles abordés :
 - DDPM (*Denoising Diffusion Probabilistic Models*)
 - GAN (*Generative Adversarial Network*) 
 
+## Projet N2I
+J'ai participé, avec 3 camarades de promotion, au concours de la Nuit de l'Info 2021, un coucours national dont le but était de coder en une nuit une solution web pour un client. Cette année, le but était d'améliorer le site Des Sauveteurs du Dunkerquois, qui recense les sauvetages en mer depuis 1740, en y intégrant (entre autres) un moteur de recherche lié à une base de données. 
+Notre équipe a fini troisième au défi "Thomas Pequet", mais aussi et surtout __troisième au concours général__ !
+
 ## Projets académiques d'algorithmique et de programmation 
 - Projet PacMan Ascension : projet d'implémentation d'une version simplifiée de PacMan en C.
 - Projet Rummikub : projet d'implémentation d'une version du Rummikub en C.

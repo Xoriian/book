@@ -1,0 +1,20 @@
+P P P P P P P P P P P P P P P P P P P P
+P P P V P P P P P P P P P P P P P P P P
+P P V V P P P P P P P P P P Fo Fo P P P P
+P P P V P P P P P P P P P P Fo Mo P Fo P P
+Me P P P P P P P P P P P P P Mo Mo Mo Mo Fo P
+P P P P P P P P P P P P P P Mo Mo P P P P
+Me P P P P P P P P P P P P P P P P P P P
+Me Me P P P P P P P P P P P P P P P P P P
+Me Me Me Me  P P P P P P P P P P Fo Fo P P P
+Me Me Me Me Me Me P P P P P Fo Fo Fo Fo Fo Fo Fo P P
+Me Me Me Me Me Me P P P P P P P Fo Fo Fo Fo Fo Fo Fo
+Me Me Me Me Me P P P P P P P Fo Fo Fo Fo Fo Fo Fo Fo
+Me Me Me Me Me P P P P P P P P P P P Fo Fo Fo Fo
+Me Me P P P P P P P P P P P P P P P Fo Fo P
+Me P P P P P P Fo P P P P P P P P P P P P
+P P P P Fo Fo Mo Mo Mo P P P P P P P P P P P
+P P P P P Mo Mo P P P P P P P P P V P P P
+P P P P P P Fo P P P P P P P P P V V P P
+P P P P P P P P P P P P P P P P V P P P
+P P P P P P P P P P P P P P P P P P P P

@@ -1,0 +1,613 @@
+/* RYOKO - PROJET HTML/CSS - RAFFIER Alexis / TEA Jacques */
+
+/* POLICES */
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+/*/////////////*/
+
+/* ANIMATIONS */
+@keyframes fade_in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*/////////////////*/
+
+/* BODY */
+body {
+  margin: 0;
+  font-family: 'Montserrat', Calibri, sans-serif;
+  overflow-x: hidden;
+}
+
+#page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+/*////////////////*/
+
+/* HEADER */ /* Bandeau supérieur blanc contenant le logo du site */
+header {
+  width: 100%;
+  height: 40px;
+  position: sticky;
+  top: 0;
+  background: #fff;
+  border-bottom: 2px solid #ebebeb;
+  z-index: 200;
+}
+
+/* MENU DEROULANT */
+#menu_deroulant {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 0px;
+}
+
+
+#logo_menu {
+	display: flex;
+	align-items: center;
+	width: 100px;
+	height: 40px;
+}
+
+
+#menu_icon {
+	width: 25px;
+	height: 25px;
+	margin: 0 10px;
+}
+
+
+#logo_ryoko {
+	width: 35px;
+	height: 35px;
+}
+
+
+#logo_menu a {
+	width: 35px;
+	height: 35px;
+	margin-left: 10px;
+}
+
+
+#main_menu {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	width: 200px;
+	position: relative;
+	left: -202px;  /* On le met hors de l'écran pour ensuite profiter d'une transition de type "slide-in" lors de l'affichage */
+	background: #fbfbfb;
+  border-right: 2px solid #ebebeb;
+	transition: left 0.4s;
+	overflow-y: auto;
+  overflow-x: hidden;
+}
+
+
+#main_menu a {
+	text-decoration: none;
+	text-align: left;
+	color: #4d4d4d;
+	text-transform: uppercase;
+	width: 100%;
+	height: 25px;
+	border-bottom: 1px solid #ebebeb;
+  padding: 10px 0 10px 10px;
+  line-height: 25px;
+  vertical-align: middle;
+}
+
+
+#main_menu a:hover, #menu_selected {
+  font-weight: bold;
+  background: #eee;
+  border-left: 4px solid #1a87a5;
+}
+
+
+#menu_deroulant h2 {
+  width: 170px;
+  font-size: 1em;
+  text-transform: uppercase;
+  border-bottom: 2px solid;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+
+#main_menu h2 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-color: #000;
+}
+
+
+#contact {
+  background: #31313a;
+  border-right: 2px solid #4d4d4d;
+  height: 175px;
+  width: 200px;
+  position: relative;
+  left: -202px;
+  transition: left 0.4s;
+  overflow: hidden;
+}
+
+
+#contact ul {
+	list-style-type: none;
+	margin: 0;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding: 0;
+}
+
+
+#contact li {
+	display: flex;
+	align-items: center;
+	margin: 10px 0;
+}
+
+
+#contact a, #contact span {
+	text-decoration: none;
+	color: #fff;
+	margin-left: 5px;
+	font-size: 0.7em;
+}
+
+
+.contact_icon {
+	height: 20px;
+}
+
+
+#contact h2 {
+  color: #fff;
+  border-color: #fff;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+
+#menu_deroulant:hover .sous_menu {  /* Affichage du menu déroulant */
+  left: 0;
+}
+/*////////////*/
+
+/* BANNIERE */
+  /* Accueil */
+#banner_accueil {
+  background: url("images/accueil/banniere_accueil.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+  /* Asie */
+#banner_asie {
+  background: url("images/asie/banniere_asie.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Amérique */
+#banner_amerique {
+background: url("images/amerique/banniere_am.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+/* Europe */
+#banner_europe {
+    background: url("images/europe/banniere_europe.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*Afrique*/
+#banner_afrique {
+    background: url("images/afrique/banniere_afrique.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*Océanie*/
+#banner_oceanie {
+    background: url("images/oceanie/banniere_oceanie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Général */
+.banner {
+  height: 80vh;
+  min-height: 200px;
+  max-height: 600px;
+  z-index: 1;
+}
+
+
+.fond_banner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0,0,0,0.4);
+  animation: 2s fade_in;
+}
+
+
+.banner img {
+  height: 40%;
+}
+
+
+.banner span {
+  color: #fff;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+.banner h1 {
+  color: #fff;
+  font-size: 2.2em;
+  text-transform: uppercase;
+  text-align: center;
+  width: 400px;
+  height: 100px;
+  line-height: 100px;
+  vertical-align: middle;
+  border-bottom: 2px solid #fff;
+}
+
+
+.banner p {
+  color: #fff;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+/* BANDE PAYS */
+#bande_pays {
+  height: 40px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 40px;
+  border-top: 2px solid #ebebeb;
+  border-bottom: 2px solid #ebebeb;
+  z-index: 150;
+}
+
+
+.menu_pays {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+
+
+.menu_pays a {
+  text-decoration: none;
+  text-align: center;
+  color: #4d4d4d;
+  padding: 10px 20px;
+  transition: color 0.5s;
+  font-weight: bold;
+}
+
+#pays_eu a:hover {
+  color: #134998;
+}
+
+
+#pays_as a:hover {
+ color: #c80000;
+}
+
+#pays_am a:hover {
+ color: #0033B6;
+}
+
+
+#pays_af a:hover {
+  color: #c8ec18;
+}
+
+
+#pays_oc a:hover {
+  color: #34E8F2;
+}
+
+/*//////////////////*/
+
+/* MAIN */
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #282830;
+  color: #fff;
+  z-index: 100;
+}
+
+/* Elements de l'écran d'acceuil */
+
+.title {
+    text-align: center;
+}
+
+#quote_acc {
+    text-align: center;
+    font-family: 'Pacifico', sans-serif;
+    font-size: 1.5em;
+}
+
+/* Fond des pays de chaque continent */
+
+/* EUROPE */
+#fra {
+    background: url("images/europe/fond_france.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#gbr {
+    background: url("images/europe/fond_ru.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#isl {
+    background: url("images/europe/fond_islande.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* ASIE */
+#jap {
+  background: url("images/asie/sectionjap.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#chi {
+  background: url("images/asie/sectionchi.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#cor {
+  background: url("images/asie/sectioncor.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* AMERIQUE */
+#usa {
+  background: url("images/amerique/sectionusa.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#can {
+  background: url("images/amerique/sectioncan.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#bre {
+  background: url("images/amerique/sectionbre.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* AFRIQUE */
+#egy {
+  background: url("images/afrique/fond_egypte.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#mrc {
+  background: url("images/afrique/fond_maroc.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#tan {
+  background: url("images/afrique/fond_tanzanie.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* OCEANIE */
+#aus {
+  background: url("images/oceanie/fond_australie.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#nzl {
+  background: url("images/oceanie/fond_new-zeland.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#haw {
+  background: url("images/oceanie/fond_hawai.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Elements de chaque continent */
+.intro {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid #ebebeb;
+}
+
+
+.intro p {
+    width: 80%;
+    padding: 5px 0px;
+    text-align: justify;
+    color: #000;
+    font-size: 0.9em;
+}
+
+
+.bloc_pays {
+  width: 100%;
+  padding: 80px 0;
+}
+
+
+.bloc_pays:nth-child(2n+1) { /* Permet de faire la transition entre les différents bloc de pays (ligne blanche) */
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.6),
+              0px 2px 5px rgba(0,0,0,0.6) inset;
+  z-index: 100;
+}
+
+
+.bloc_pays_texte {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  min-width: 350px;
+  margin: 20px auto;
+  padding: 5px 40px;
+  background: rgba(0,0,0,0.4);
+  border: 2px solid #282830;
+  border-radius: 20px;
+}
+
+
+.bloc_pays_texte h2 {
+  width: 100%;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 10px;
+}
+
+
+.bloc_pays_texte article {
+  width: 55%;
+  min-width: 350px;
+  max-height: 300px;
+  padding: 0 20px;
+  border: 1px solid rgba(255,255,255,0.4);
+  border-radius: 10px;
+  margin: 20px 20px;
+}
+
+
+.bloc_pays_texte article p {
+  text-align: justify;
+  max-height: 200px;
+  overflow-y: auto;
+  padding-right: 30px;
+}
+
+
+.bloc_pays_texte article a {
+  color: #bebebe;
+}
+
+.bloc_pays_texte img {
+  max-width: 400px;
+  height: 300px;
+  margin: 20px 20px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+
+
+/* Personnalisation des barres de scroll à l'intérieur de la page. Fait grâce à Webkit, peut ne pas être compatible avec tous les navigateurs. Code largement inspiré de ce site : https://www.screenfeed.fr/blog/personnaliser-les-scrollbars-webkit-0366/ */
+
+body ::-webkit-scrollbar {
+	width: 14px;
+	height: 14px;
+
+}
+
+body ::-webkit-scrollbar-track-piece {
+	background: transparent none;
+	border: solid 4px transparent;
+	border-right-width: 8px;
+	margin: 4px;
+	-webkit-box-shadow: inset 1px 0 0 0 rgb(191,181,181)
+}
+
+body ::-webkit-scrollbar-thumb {
+	border: solid 0 transparent;
+	border-right-width: 4px;
+	-webkit-border-radius: 5px;
+	-webkit-border-top-right-radius: 10px 7px;
+	-webkit-border-bottom-right-radius: 10px 7px;
+	-webkit-box-shadow: inset 0 0 0 6px #4d4d4d;
+}
+body ::-webkit-scrollbar-thumb:hover {
+	-webkit-box-shadow: inset 0 0 0 1px #4d4d4d, inset 0 0 0 6px rgb(150,150,150);
+}
+
+/*///////////////////*/
+
+/*////////////////*/
+/* FOOTER */
+footer {
+  height: 50px;
+  background: #282830;
+  border-top: 1px solid #4d4d4d;
+}
+
+
+#copyright {
+  color: rgba(255,255,255,0.2);
+  font-size: 0.8em;
+  text-align: center;
+  margin: 0;
+  line-height: 50px;
+  vertical-align: middle;
+}

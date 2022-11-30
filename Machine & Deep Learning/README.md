@@ -1,0 +1,4 @@
+# Projets Machine & Deep Learning - Exemples de résultats avec des modèles génératifs
+## Auteur : Alexis Raffier - Dans le cadre du cours IFT6135-A2022 de l'UdeM
+Dans le cadre de mon semestre d'échange à l'UdeM (Université de Montréal) en dernière année du cycle ingénieur, j'ai eu l'occasion de monter en compétences sur un large spectre de modèles de Machine et de Deep Learning. Vous trouverez dans ce dossier quelques exemples visuels d'images générées (et créées de toute pièce !) à partir du *dataset Street View House Numbers (SVHN)* et de trois modèles génératifs : __VAE__, __DDPM__ et __GAN__.
+Vous pouvez voir les images générées par ces trois modèles, ainsi qu'une interpolation pour les modèles de *VAE* et de *GAN*. Ces deux interpolations montrent la transition (par interpolation) effectuée pour passer d'un nombre à un autre, de la façon la plus lisse possible.

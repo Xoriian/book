@@ -1,0 +1,61 @@
+<!-- RYOKO - PROJET HTML/CSS - RAFFIER Alexis / TEA Jacques -->
+
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ryokō - Accueil</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/png" href="images/favicon_ryoko.png">
+  </head>
+
+  <body>
+    <div id="page">
+      <header>
+    		<div id="menu_deroulant">
+    			<div id="logo_menu"> <!-- Logo qui indique l'existence d'un menu à gauche -->
+  					<img src="images/menu_icon.png" alt="icone du menu" id="menu_icon">
+            <a href="index.html"><img src="images/logo_ryoko.png" alt="logo ryoko" id="logo_ryoko"></a>
+    			</div>
+    			<nav id="main_menu" class="sous_menu"> <!-- Menu caché qui apparait quand on survole la partie gauche de l'écran -->
+            <a href="index.html" id="menu_selected">Accueil</a>
+            <h2>Découvrir</h2>
+  					<a href="europe.html">Europe</a>
+  					<a href="asie.html">Asie</a>
+    				<a href="amerique.html">Amérique</a>
+            <a href="oceanie.html">Océanie</a>
+            <a href="afrique.html">Afrique</a>
+    			</nav>
+  				<nav id="contact" class="sous_menu"> <!-- Menu caché des liens pour nous contacter -->
+            <h2>Nous contacter</h2>
+    				<ul>
+  						<li><img src="images/twitter_icon.png" alt="twitter" class="contact_icon"><a href="#">@Ryoko</a></li>
+              <li><img src="images/mail_icon.png" alt="mail" class="contact_icon"><span>contact.ryoko@gmail.com</span></li>
+              <li><img src="images/insta_icon.png" alt="instagram" class="contact_icon"><a href="#">@Ryoko</a></li>
+    				</ul>
+    			</nav>
+    		</div>
+  		</header>
+
+      <div class="banner" id="banner_accueil"> <!-- Bannière -->
+        <div class="fond_banner">
+          <img src="images/accueil/logo_ryoko_banner.png" alt="logo ryoko">
+          <span>Ryokō</span>
+        </div>
+      </div>
+
+      <main>
+        <h1 class="title"> Bienvenue sur Ryokō ! </h1>
+        <h2 class="title"> Découvrez différents pays, leur culture, leur gastronomie, leurs paysages... Tout ça depuis chez vous ! Sélectionnez votre continent et partez à la découverte du monde...  </h2>
+
+        <p id="quote_acc"> <q> Voir le monde de ses yeux est mille fois mieux que n’importe quel rêve. </q> <br/> <em> Ray Bradbury (écrivain américain) </em> </p>
+
+        <p> <em> Pourquoi Ryokō ? </em> C'est la traduction phonétique de "voyage" en Japonais. Une inspiration pour partir à la découverte du monde... </p>
+      </main>
+
+      <footer>
+        <p id="copyright">©2020 Ryokō</p>
+      </footer>
+    </div>
+  </body>
+</html>

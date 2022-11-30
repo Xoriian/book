@@ -1,5 +1,5 @@
-# book
-Book de Alexis Raffier, avec des exemples de projets académiques.
+# Book - Alexis Raffier
+Exemples de projets académiques réalisés durant mon cursus d'ingénieur informatique à l'ISTY (avec spécialisation en Machine & Deep Learning à l'Université de Montréal)
 
 ## Projet DAGU
 Exemple de projet interfilière de voiture autonome intégrant un module d'IA utiliant YOLOv5-Lite (*référence : https://github.com/ppogg/YOLOv5-Lite*)

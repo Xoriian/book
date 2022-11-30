@@ -27,6 +27,6 @@ Notre équipe a fini troisième au défi "Thomas Pequet", mais aussi et surtout 
 
 ## Projets académiques d'algorithmique et de programmation 
 Différents projets réalisés le long de mon cursus, il s'agit essentiellement de projets de programmation :
-- Projet PacMan Ascension : projet d'implémentation d'une version simplifiée de PacMan en C.
+- Projet WarGame : projet de développement d'un jeu de stratégie en Java.
 - Projet Rummikub : projet d'implémentation d'une version du Rummikub en C.
-- Projet WarGame : projet de développement d'un WarGame en Java.
+- Projet Ryoko : projet de création de site web en HTML / CSS.

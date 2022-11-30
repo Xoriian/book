@@ -1,9 +1,9 @@
 # Book - Alexis Raffier
-Exemples de projets académiques réalisés durant mon cursus d'ingénieur informatique à l'ISTY (avec spécialisation en Machine & Deep Learning à l'Université de Montréal, dans le cadre d'un programme d'échange)
+Exemples de projets académiques réalisés durant mon cursus d'ingénieur informatique à l'ISTY (avec spécialisation en Machine & Deep Learning à l'Université de Montréal, dans le cadre d'un programme d'échange).
 
 ## Projet DAGU
 Exemple de projet interfilière de voiture autonome intégrant un module d'IA utiliant YOLOv5-Lite (*référence : https://github.com/ppogg/YOLOv5-Lite*)
-Le code et une vidéo de test est fourni
+Le code et une vidéo de test sont fournis.
 
 ## Projets académiques de Machine et Deep Learning
 Pour ces projets, le code n'est pas fourni (car il s'agit de cas d'école), mais quelques exemples de sorties pour les modèles génératifs sont présentés. 

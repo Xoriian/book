@@ -5,7 +5,7 @@ Quelques autres exemples de projets réalisés pendant mon cursus, avec des cama
 #### Crédit pour la musique : Darren Korb - Hades - Original Soundtrack - 02 The House of Hades  
 Le but était de faire un jeu de stratégie au tour par tour en JAVA. Le fichier *.jar* est disponible pour tester le jeu.
 Le code est disponible dans le dossier *wargameJAVA-main*. Il contient un script *.sh* permettant de générer à nouveau le fichier *.jar*
-Une vidéo de démonstration est disponible à ce lien : *à venir*.
+Une vidéo de démonstration est disponible à ce lien : https://www.youtube.com/watch?v=P19JDrzMVDQ.
 ## Projet Rummikub (Projet de 1ère année de cycle ingénieur - 2020)
 ### Auteurs : Alex Corbeil, Alexis Raffier, Elhassane Talha, Jacques Tea, Antoine Vidal
 Le but était de faire un jeu de Rummikub en C, en utilisant la bibliothèque graphique SQL. Le code et toutes les informations pour le compiler sont disponibles dans le dossier *rummikub-main*.
